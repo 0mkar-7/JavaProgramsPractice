@@ -1,6 +1,6 @@
 class Test{
 	static public void show(){
-		System.out.println(" Sow Method");
+		System.out.println(" Show Method");
 	}
 }
 
