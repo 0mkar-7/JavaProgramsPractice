@@ -4,6 +4,10 @@ class LeapYear{
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter a year");
 		int year = sc.nextInt();
+		if(year<=0){
+			System.out.println("Year "+year+" is not valid.");
+			return;
+		}
 		if(year%100!=0){
 			if(year%4==0){
 				System.out.println(year +" is a non century leap year");

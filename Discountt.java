@@ -8,13 +8,13 @@ class Discountt{
 		String ans = sc.next();
 		if(ans.equals("yes")){
 			if(cost>500){
-				int discount = (cost*100)/10;
+				int discount = (cost*10)/100;
 				System.out.println("Cost price"+cost);
 				System.out.println("Discount "+discount);
 				System.out.println("Discounted Price for Student "+ (cost-discount));
 			}
 			else{
-				int discount = (cost*100)/5;
+				int discount = (cost*5)/100;
 				System.out.println("Cost price"+cost);
 				System.out.println("Discount "+discount);
 				System.out.println("Discounted Price for Student  "+(cost-discount));
@@ -22,13 +22,13 @@ class Discountt{
 		}
 		else{
 			if(cost>500){
-				int discount = (cost*100)/8;
+				int discount = (cost*8)/100;
 				System.out.println("Cost price"+cost);
 				System.out.println("Discount "+discount);
 				System.out.println("Discounted Price for Non Student "+(cost-discount));
 			}
 			else{
-				int discount = (cost*100)/2;
+				int discount = (cost*2)/100;
 				System.out.println("Cost price"+cost);
 				System.out.println("Discount "+discount);
 				System.out.println("Discounted Price for Non Student"+(cost-discount));
