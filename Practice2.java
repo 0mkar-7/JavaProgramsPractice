@@ -11,11 +11,14 @@ class Practice2{
 		String gender = sc.next();
 		total = a+b+c;
 		per = (total*100)/300;
-		if(per>=62 && gender.equals("female")){
+		if(per>=60 && gender.equals("male")){
+			System.out.println("he Can Take Admission");
+		}
+		else if(per>80 && gender.equals("female")){
 			System.out.println("She Can Take Admission");
 		}
 		else{
-			System.out.println("She Cannot Take Admission");
+			System.out.println("You Cannot Take Admission");
 		}
 	}
 }
