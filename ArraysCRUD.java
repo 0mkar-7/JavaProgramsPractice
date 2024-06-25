@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
 class Student{
+    
     int sid[] = new int[10];
     String sname[]= new String[10];
     String city[]= new String[10];
