@@ -17,3 +17,22 @@ dynamic ---> Run time --->Methoad overriding
 
 
 Method Overloading --> process of extending the existing feature 
+
+Abstraction
+Abstract class is a collection of two methods , concrete and abstract methods.
+We canno create reference varable for abstract class.
+It is not required to have abstract methods in abstract class.
+We cannot create pbjects of abstract class.
+Even without concrete methds abstract class can work.
+Abstract clss is partially incomplete.
+
+Interface:
+Interface is a collection of abstract methods.
+It is fully incomplete.
+We cant create object of Interface
+Keyword to create interface is ' interface '.
+By Default all the variables in the interface  are public static final.
+By Default all the methods are abstract and public .
+To define the body of the abstract methods of Interface in the class we use ' implements ' keyword.
+Multiple Inheritance is possible with help of Interface.
+
