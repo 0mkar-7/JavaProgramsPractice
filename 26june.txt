@@ -1,0 +1,19 @@
+1.Matrix Calculations
+2.Oops1
+3.Constructors
+4.Inheritance - Code reusability
+5.Polymorphism - Flexibility
+6.Abstraction - Data Security
+7.Encapsulation - Data Security
+
+
+
+Polymorphism
+Many forms
+
+2 types 
+staic --> Compile Time--->methoad Overloading
+dynamic ---> Run time --->Methoad overriding
+
+
+Method Overloading --> process of extending the existing feature 
