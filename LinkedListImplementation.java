@@ -104,7 +104,7 @@ public class LinkedListImplementation {
             }
             else{
                 Node temp = head ;
-                for(int i = 1; i<index-1;i++){
+                for(int i = 1; i<index-1; i++){
                    temp = temp.next; 
                 }
                 newNode.next = temp.next;
@@ -112,6 +112,26 @@ public class LinkedListImplementation {
                 
             }
         }
+
+        // void deleteEnd(){
+        //     if(head==null){
+        //         System.out.println("\nList is empty");
+        //     }
+        //     else if(head == tail){
+        //         head = null;
+        //         tail = null;
+        //     }
+        //     else{
+        //         Node temp=head;
+        //         while(temp.next!=null){
+        //             temp = temp.next;
+                    
+        //         }
+                
+        //         tail = temp;
+        //         tail.next = null;
+        //     }
+        // }
     }
     
     public static void main(String[] args) {
@@ -138,6 +158,9 @@ public class LinkedListImplementation {
        LL.display();
 
        LL.deleteAt(3);
+       LL.display();
+
+       LL.deleteEnd();
        LL.display();
 
 
